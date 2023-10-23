@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "doc-sie-client-side-solution",
+    "id": "db0ef8c7-af54-4435-b0e6-4c13f169dfa2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DocSie description"
+      },
+      "longDescription": {
+        "default": "DocSie description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "doc-sie Feature",
+        "description": "The feature that activates elements of the doc-sie solution.",
+        "id": "a658d6d6-61d9-452d-99fb-56c92fdc1ecf",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/doc-sie.sppkg"
+  }
+}

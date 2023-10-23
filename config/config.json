@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "doc-sie-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/docSie/DocSieWebPart.js",
+          "manifest": "./src/webparts/docSie/DocSieWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "bootstrap": "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+  },
+  "localizedResources": {
+    "DocSieWebPartStrings": "lib/webparts/docSie/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"CarouselTemplate.d.ts","sourceRoot":"","sources":["../../../src/webparts/docSie/CarouselTemplate.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,MAAM,iBAAiB,CAAC;AAGtD,MAAM,CAAC,OAAO,OAAO,gBAAgB;IACjC,OAAc,eAAe,EAAE,MAAM,CAAC;WACxB,SAAS,CAAC,IAAI,EAAE,mBAAmB,GAAG,MAAM;CAoF7D"}
