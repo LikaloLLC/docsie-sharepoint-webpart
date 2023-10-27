@@ -1,5 +1,40 @@
 # doc-sie
 
+## Testing
+1. Clone this Repo
+2. Open in VSCode
+3. Change the config -> serve.json -> initialpage to [your own SP site]_layouts/workbench.aspx
+4. run on the terminal:
+  1. gulp serve
+  2. In the open window, add the webpart
+  3. edit the properties and add a valid key
+  4. click button
+
+## Deploy - Production
+1. run on terminal:
+   1. gulp bundle --ship
+   2. gulp package-solution --ship
+2. App Catalog: this will create a new folder called SharePoint (if not already created)
+   1. Look for solutions folder and find the .sppkg file
+   2. Go to you SharePoint Admin Center
+   3. Go to More Features in side navigation
+   4. Click "Open" in Apps
+   5. Upload the .sppkg file in there (make sure you have permissions on AppCatalog site collection)
+   6. Enable the webpart
+3. Deploy webpart to a Site collection in SharePoint
+   1. Go to site collection "Site Content" or "Add an App"
+   2. Look for the app in the list. If not found, then if could be the following reason:
+      1. App already deployed tenant wide, in which case:
+         1. Go to a page and edit it
+         2. Add a web part in a section
+         3. Look for the web part
+      2. Deploy error:
+         1. Check App Catalog and see if the upload was successful
+      3. Custom scripting is disbled
+         1. Enable custom scripting for that site, requires PowerShell
+   3. Add the app if found
+   4. Once added, you can start using the webpart
+ 
 ## Summary
 
 Short summary on functionality and used technologies.
